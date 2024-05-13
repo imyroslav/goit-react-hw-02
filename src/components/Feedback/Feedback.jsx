@@ -7,11 +7,11 @@ export function Feedback({
 }) {
   return (
     <div className={css.containerFeedback}>
-      <p className={css.feedbackGood}>Good: {good}</p>
-      <p className={css.feedbackNeutral}>Neutral: {neutral}</p>
-      <p className={css.feedbackBad}>Bad: {bad}</p>
-      <p className={css.totalFeedback}>Total: {totalFeedback}</p>
-      <p className={css.positiveFeedback}>
+      <p className={css.feedbackText}>Good: {good}</p>
+      <p className={css.feedbackText}>Neutral: {neutral}</p>
+      <p className={css.feedbackText}>Bad: {bad}</p>
+      <p className={css.feedbackText}>Total: {totalFeedback}</p>
+      <p className={css.feedbackText}>
         Positive feedback: {positiveFeedback}%
       </p>
     </div>
