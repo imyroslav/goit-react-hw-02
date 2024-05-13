@@ -1,0 +1,31 @@
+.containerFeedback {
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.feedbackGood {
+    color: rgb(0, 162, 78);
+    font-weight: 600;
+}
+
+.feedbackNeutral {
+    color: rgb(11, 118, 232);
+    font-weight: 600;
+}
+
+.feedbackBad {
+    color: rgb(221, 4, 4);
+    font-weight: 600;
+}
+
+.totalFeedback {
+    color: #504d4d;
+    font-weight: 600;
+}
+
+.positiveFeedback {
+    color: rgb(61, 173, 115);
+    font-weight: 600;
+}
